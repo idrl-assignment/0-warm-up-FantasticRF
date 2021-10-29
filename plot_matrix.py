@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 
 
 def generate_random_matrix(m, n):
-    return(np.random.randint(0,2,(m,n)))
+    return (np.random.randint(0, 2, (m, n)))
 
 
 def save_matrix(matrix, file_name):
     plt.imshow(matrix)
-    plt.savefig(file_name) 
+    plt.savefig(file_name)
 
 
 if __name__ == "__main__":
